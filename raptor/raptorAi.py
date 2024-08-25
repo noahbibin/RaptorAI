@@ -1,10 +1,8 @@
 import torch
 import cv2
-import numpy as np
-from time import time
 import pygame
 from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtWidgets import QFileDialog, QSplashScreen, QMessageBox, QMainWindow, QAction, QStyle
+from PyQt5.QtWidgets import QFileDialog, QSplashScreen, QMessageBox, QMainWindow, QAction
 import sys
 import os
 import time
@@ -322,12 +320,10 @@ class MainWindow(QMainWindow):
         about_msg = QMessageBox(self)
         about_msg.setIcon(QMessageBox.Information)
         about_msg.setText(
-            "RAPTOR AI is an intelligent object detection system designed to enhance safety \n "
-            "by identifying potentially hazardous items in real-time. \n"
-            "It offers reliable monitoring for various environments, \n"
-            " making it an essential tool for maintaining security."
-            "RAPTOR is a Computer vision project powered by Pytorch and OpenCV.\n"
-            "RAPTOR is developed by Noah Bibin Markose.\n"
+            "RAPTOR AI is an intelligent object detection system designed to enhance safety"
+            "by identifying potentially hazardous items in real-time. It offers reliable monitoring for various environments,"
+            "making it an essential tool for maintaining security. RAPTOR is a Computer vision project powered by Pytorch and OpenCV.\n"
+            "RAPTOR is developed by Noah Bibin Markose."
             "This is a submission for the Premier's Coding Challenge 2024 #digitalinnovationqld"
         )
         about_msg.setWindowTitle("About")
