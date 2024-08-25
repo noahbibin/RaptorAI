@@ -10,7 +10,6 @@ setup(
     install_requires=[
         'torch',
         'opencv-python',
-        'numpy',
         'pygame',
         'PyQt5',
         'pillow',
