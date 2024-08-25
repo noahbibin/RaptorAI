@@ -1,17 +1,23 @@
 <h1>Raptor AI: Hunt Down every detail</h1>
 <img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/RaptorAIsplashscreen.jpg" />
-<p> Youth crime is quickly increasing, as well as robberies, knife crimes and murders. Some of these crimes take place under CCTV footage,
-  but by the time security guards and the police find out, it's either to late or the damage is already done.
-  We need a solution that can quickly detect a triggered item, or person, raising an alarm. Thats why I created Raptor AI.
+<p>
+Youth crime is rapidly rising, along with incidents of robbery, knife attacks, and murders. Although some of these crimes are captured on CCTV, it's often too late by the time security guards or the police are alerted—the damage has already been done. We need a solution that can swiftly detect a suspicious item or person and raise an alarm. That's why I created RAPTOR AI.
 </p>
 <p>
-  Raptor AI is an Object Detection AI powered by Pytorch and OpenCV. Raptor AI identifies objects as well as making an overlay on the footage from either a webcam or a IP camera, creating boxes over the detected items.
-  Items that are in the list of Triggered Items result in raising an alarm. You can configure the settings for Raptor in the Configuration Window. These include the confidence threshold (Accuracy of detections),
-  List of Triggered Items (Add or remove items that raise alarm), Change Alarm Sound (Choice of own sound), Camera Source (Webcam by default, as well as IP Camera Option), IP Camera URL (If IP camera is selected, default is used, can be changed).
+
+RAPTOR AI is a cutting-edge object detection system that leverages advanced AI technologies such as PyTorch and OpenCV in Python. It identifies objects, labels them, and draws bounding boxes around them in footage from either a webcam or an IP camera, highlighting the detected items. When an item from the Triggered Items list defined in Configuration is recognized, the system triggers an alarm and marks the item with a red box. This technology is designed to improve safety, wellbeing, and security across various locations, including community centers, schools, public areas, shopping centers, parks, and more.
+
 </p>
-<img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/SydneyHarbourRaptor.png" />
+<img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/SydneyHarbourRaptorUpdated.png" />
 <p>
-  Looking at the image above, we can see an IP Camera Stream located in Sydney. I added boat in the list of Triggered Items. This results in all the boat getting a red outline and an alarm going off.
-  Here is the Configuration Window for the image above.
+ Looking at the image above, we can see an IP Camera stream from Sydney which is set to a public IP camera. I have added "person" to the list of Triggered Items, which results in person being highlighted with a red outline and triggering an alarm.
 </p>
-<img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/ConfigurationWindowSnapshot.png" />
+
+<p>
+    You can configure RAPTOR AI's settings in the Configuration Window, which includes adjusting the confidence threshold (detection accuracy), managing the Triggered Items list (add or remove items that trigger an alarm), changing the alarm sound, selecting the camera source (webcam by default, with an IP camera option), and setting the IP camera URL (modifiable if IP camera is selected, with a default URL provided). The image below the Configuration Window for the Sydney Harbour detection shown in the image above.
+</p>
+<img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/ConfigurationWindowSnapshotUpdated.png" />
+
+<p>
+This AI-powered software can help prevent fatal attacks and crimes, such as the Bondi Beach stabbings, by detecting the presence of knives and triggering an alert. This capability can save lives and enhance safety in schools and other locations, creating a safer environment overall.
+</p>
