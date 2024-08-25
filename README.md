@@ -21,3 +21,19 @@ RAPTOR AI is a cutting-edge object detection system that leverages advanced AI t
 <p>
 This AI-powered software can help prevent fatal attacks and crimes, such as the Bondi Beach stabbings, by detecting the presence of knives and triggering an alert. This capability can save lives and enhance safety in schools and other locations, creating a safer environment overall.
 </p>
+<br/>
+<h2>Prerequested to run the project</h2>
+<p>
+ <ol>
+  <li>Install the latest version of python.</li>  
+  <li>Install all dependencies:</li>
+   <ul>
+     <li>
+  <code>pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118</code></li>
+     <li>
+  <code>pip install opencv-python pygame PyQt5</code></li>
+    </ul>
+   
+ </ol>
+
+</p>
