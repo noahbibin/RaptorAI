@@ -25,15 +25,15 @@ This AI-powered software can help prevent fatal attacks and crimes, such as the 
 <h2>Prerequested to run the project</h2>
 <p>
  <ol>
-  <li>Install the latest version of python.</li>  
-  <li>Install all dependencies:</li>
-   <ul>
-     <li>
-  <code>pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118</code></li>
-     <li>
-  <code>pip install opencv-python pygame PyQt5</code></li>
-    </ul>
-   
+  <li>Install the latest version of python.</li> 
+  <li>(Optional) <a htrf="https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment">Create a Virtual Environment</a></li> 
+  <li>
+      Install all dependencies:<br/>
+      <code>pip install -r requirements.txt # install</code>
+  </li>
+  <li>
+      Run RaptorAI/raptor/raptorAi.py
+  </li> 
  </ol>
 
 </p>
