@@ -320,10 +320,9 @@ class MainWindow(QMainWindow):
         about_msg = QMessageBox(self)
         about_msg.setIcon(QMessageBox.Information)
         about_msg.setText(
-            "RAPTOR AI is an intelligent object detection system designed to enhance safety"
-            "by identifying potentially hazardous items in real-time. It offers reliable monitoring for various environments,"
-            "making it an essential tool for maintaining security. RAPTOR is a Computer vision project powered by Pytorch and OpenCV.\n"
-            "RAPTOR is developed by Noah Bibin Markose."
+            "RAPTOR AI is an intelligent object detection system designed to enhance safety by identifying potentially hazardous items in real-time. " 
+            "It offers reliable monitoring for various environments, making it an essential tool for maintaining security. RAPTOR is a Computer vision project powered by Pytorch and OpenCV."
+            "RAPTOR is developed by Noah Bibin Markose. "
             "This is a submission for the Premier's Coding Challenge 2024 #digitalinnovationqld"
         )
         about_msg.setWindowTitle("About")
