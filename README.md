@@ -26,7 +26,7 @@ This AI-powered software can help prevent fatal attacks and crimes, such as the 
 <p>
  <ol>
   <li>Install the latest version of python.</li> 
-  <li>(Optional) <a htrf="https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment">Create a Virtual Environment</a></li> 
+  <li>(Optional) Create a Virtual Environment "https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment"</li> 
   <li>
       Install all dependencies:<br/>
       <code>pip install -r requirements.txt # install</code>
