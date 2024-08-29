@@ -19,7 +19,7 @@ RAPTOR AI is a cutting-edge object detection system that leverages advanced AI t
 <img src="https://raw.githubusercontent.com/noahbibin/noahbibin.github.io/main/assets/ConfigurationWindowSnapshotUpdated.png" />
 
 <p>
-This AI-powered software can help prevent fatal attacks and crimes, such as the Bondi Beach stabbings, by detecting the presence of knives and triggering an alert. This capability can save lives and enhance safety in schools and other locations, creating a safer environment overall.
+This AI-powered software can help prevent fatal attacks and crimes, such as the Bondi Beach stabbings, by detecting the presence of knives and triggering an alert. This solution can be easily integrated into existing security systems or cameras and can be further developed to support monitoring multiple cameras within a single window consecutively. This capability can save lives and enhance safety in schools and other locations, creating a safer environment overall.
 </p>
 <br/>
 <h2>Prerequested to run the project</h2>
